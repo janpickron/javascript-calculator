@@ -1,0 +1,20 @@
+html, body{
+    padding: 10px;
+    background-color: #ffeead;   
+}
+
+
+.container {
+  border: 5px solid #810a60;
+  display: flex;
+  margin: 5px;
+  font-size: 28px;
+}
+
+.container .home {
+    background-color: aqua;
+}
+
+.container .logout {
+    background-color: darkgoldenrod;
+}
