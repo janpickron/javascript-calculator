@@ -1,20 +1,51 @@
-html, body{
-    padding: 10px;
-    background-color: #ffeead;   
-}
+/* The CSS file styles.css working with index.html and scripts.js 
+   for the Calculator App  */
 
-
-.container {
-  border: 5px solid #810a60;
+/* class represents the main container of the calculator */
+.calculator {
+  /* property display and flex-direction - to stack the calculator elements vertically */
   display: flex;
+  flex-direction: column;
+  /* property is used to horizontally center the elements within the container */
+  align-items: center;
+  background-color: aliceblue;
+  width: 320px;
+  margin: 10px;
+  border: 3px solid #05327c;
+  padding: 10px;
+}
+
+/* class represents each row of buttons  */
+.row {
+  /* to align the buttons in a row */
+  display: flex;
+}
+
+/* class represents the container for the calculator buttons */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* class represents operator keys (-, +, *, /) */
+.operator {
+  background-color: lightsteelblue;
+}
+
+/* element represents each button */
+button {
+  /* elements have flex: 1 to distribute the available space equally among the buttons in each row */
+  flex: 1;
   margin: 5px;
-  font-size: 28px;
+  font-size: 30px;
+  padding: 25px;
 }
 
-.container .home {
-    background-color: aqua;
-}
-
-.container .logout {
-    background-color: darkgoldenrod;
+/* element represents one input type itself */
+input {
+  margin: 5px;
+  font-size: 30px;
+  max-width: 184px;
+  padding: 5px;
 }

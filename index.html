@@ -4,16 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="">
-    <title>My Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Calculator App</title>
   </head>
   <body>
-   <h1 id="header-title">My Calculator</h1>
-   
-   <input type="button" id="hitEnter" value="Enter" onclick="enterMsg()">
-   <div id="message"></div>
-
-   <script src="scripts.js"></script>
+    <h1 id="header-title">My Calculator App</h1>
+    <!-- div class name 'calculator' to group content div's class names buttons and row -->
+    <div class="calculator">
+      <div class="buttons">
+        <div class="row">
+          <!-- click on the CE button to set all values to be zero -->
+          <button onclick="clearExpression()">CE</button>
+          <!-- readonly input field cannot be modified, only show result -->
+          <input type="text" id="result" readonly />
+        </div>
+        <div class="row">
+          <button onclick="getNumber(7)">7</button>
+          <button onclick="getNumber(8)">8</button>
+          <button onclick="getNumber(9)">9</button>
+          <button class="operator" onclick="getOperator('/')">/</button>
+        </div>
+        <div class="row">
+          <button onclick="getNumber(4)">4</button>
+          <button onclick="getNumber(5)">5</button>
+          <button onclick="getNumber(6)">6</button>
+          <button class="operator" onclick="getOperator('*')">*</button>
+        </div>
+        <div class="row">
+          <button onclick="getNumber(1)">1</button>
+          <button onclick="getNumber(2)">2</button>
+          <button onclick="getNumber(3)">3</button>
+          <button class="operator" onclick="getOperator('-')">-</button>
+        </div>
+        <div class="row">
+          <button onclick="getNumber(0)">0</button>
+          <button onclick="getNumber('.')">.</button>
+          <button onclick="equal()">=</button>
+          <button class="operator" onclick="getOperator('+')">+</button>
+        </div>
+      </div>
+    </div>
+    <!-- point to an external JavaScript file which is scripts.js -->
+    <script src="scripts.js"></script>
   </body>
 </html>
