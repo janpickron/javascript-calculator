@@ -1,14 +1,27 @@
-### My first repository is awesome!
+### My Calculator app 
+This is a simple calculator web app built using JavaScript, HTML, and CSS. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-I'm Janice Pickron and here it's my first GitHub repository.
-If you see this file on my project, it's because I'm learning Git.
+![screenshot of project](/screenshot-calc-app.png)
+## Features
+- Addition: Perform addition calculations.
+- Subtraction: Perform subtraction calculations.
+- Multiplication: Perform multiplication calculations.
+- Division: Perform division calculations.
 
-My mood:
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-> exciting
+## Usage
 
-My favorite color:
+1. Clone the repository:
 
-> raspberry
+```bash
+git clone https://github.com/janpickron/javascript-calculator.git
+
+2. Open the index.html file in your web browser.
+3. Start performing calculations using this calculator app.
+
 
 Thank you so much for reading! ☺
