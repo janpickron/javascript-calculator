@@ -1,6 +1,12 @@
 /* The CSS file styles.css working with index.html and scripts.js 
    for the Calculator App  */
 
+body {
+  background-color: black;
+  color: white;
+}
+
+
 /* class represents the main container of the calculator */
 .calculator {
   /* property display and flex-direction - to stack the calculator elements vertically */
@@ -9,10 +15,12 @@
   /* property is used to horizontally center the elements within the container */
   align-items: center;
   background-color: aliceblue;
-  width: 320px;
-  margin: 10px;
+  width: 20rem;
+  margin: 1rem auto;
+  text-align: center;
   border: 3px solid #05327c;
   padding: 10px;
+  border-radius: 5%;
 }
 
 /* class represents each row of buttons  */
@@ -40,6 +48,8 @@ button {
   margin: 5px;
   font-size: 30px;
   padding: 25px;
+  min-width: 70px;
+  border-radius: 20%;
 }
 
 /* element represents one input type itself */
@@ -48,4 +58,5 @@ input {
   font-size: 30px;
   max-width: 184px;
   padding: 5px;
+  border-radius: 15%;
 }
