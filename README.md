@@ -1,7 +1,7 @@
 ### My Calculator app 
 This is a simple calculator web app built using JavaScript, HTML, and CSS. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-![screenshot of project](/screenshot-calc-app.png)
+![screenshot of project](/screenshot-calc-js.png)
 ## Features
 - Addition: Perform addition calculations.
 - Subtraction: Perform subtraction calculations.
